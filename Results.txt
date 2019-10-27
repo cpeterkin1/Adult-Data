@@ -1,0 +1,48 @@
+RESULTS
+
+LOGISTIC REGRESSION -- 85.09% accuracy
+DECISION TREE (CART)  -- 84.07% accuracy
+SUPPORT VECTOR MACHINE  -- 85.42% accuracy
+RANDOM FOREST -- 86.01% accuracy
+NEURAL NETWORK -- error  (factors of different levels)
+NAIVE BAYES -- 81.96% accuracy
+
+
+
+
+Logistic Regression Results -- 85.09% accuracy
+
+        predicted
+actual   FALSE TRUE
+   <=50K  5263  371
+   >50K    753 1153
+
+Decision Tree Results  -- 84.07% accuracy
+
+          Reference
+Prediction  <=50K  >50K
+     <=50K   5366   268
+     >50K     933   973
+     
+SUPPORT VECTOR MACHINE  -- 85.42%
+
+          Reference
+Prediction  <=50K  >50K
+     <=50K   5329   342
+     >50K     757  1112
+     
+RANDOM FOREST -- 86.01% accuracy
+
+          Reference
+Prediction  <=50K  >50K
+     <=50K   5299   372
+     >50K     683  1186
+     
+NEURAL NETWORK -- N/A
+     
+NAIVE BAYES -- 81.96% accuracy
+
+          Reference
+Prediction  <=50K  >50K
+     <=50K   5269   375
+     >50K     985   911

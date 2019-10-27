@@ -1,0 +1,140 @@
+RESULTS
+
+LOGISTIC REGRESSION -- 85.09% accuracy
+DECISION TREE (CART)  -- 84.07% accuracy
+SUPPORT VECTOR MACHINE  -- 85.42% accuracy
+RANDOM FOREST -- 86.01% accuracy
+NEURAL NETWORK -- error  (factors of different levels)
+NAIVE BAYES -- 81.96% accuracy
+
+
+
+
+Logistic Regression Results -- 85.09% accuracy
+
+        predicted
+actual   FALSE TRUE
+   <=50K  5263  371
+   >50K    753 1153
+   
+(5263+1153)/7540
+
+->  [1] 0.8509284    ...   85.09% accuracy
+
+Decision Tree Results  -- 84.07% accuracy
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  <=50K  >50K
+     <=50K   5366   268
+     >50K     933   973
+                                          
+               Accuracy : 0.8407          
+                 95% CI : (0.8323, 0.8489)
+    No Information Rate : 0.8354          
+    P-Value [Acc > NIR] : 0.1096          
+                                          
+                  Kappa : 0.5233          
+                                          
+ Mcnemar's Test P-Value : <2e-16          
+                                          
+            Sensitivity : 0.8519          
+            Specificity : 0.7840          
+         Pos Pred Value : 0.9524          
+         Neg Pred Value : 0.5105          
+             Prevalence : 0.8354          
+         Detection Rate : 0.7117          
+   Detection Prevalence : 0.7472          
+      Balanced Accuracy : 0.8180          
+                                          
+       'Positive' Class :  <=50K 
+       
+SUPPORT VECTOR MACHINE  -- 85.42%
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  <=50K  >50K
+     <=50K   5329   342
+     >50K     757  1112
+                                          
+               Accuracy : 0.8542          
+                 95% CI : (0.8461, 0.8621)
+    No Information Rate : 0.8072          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.5777          
+                                          
+ Mcnemar's Test P-Value : < 2.2e-16       
+                                          
+            Sensitivity : 0.8756          
+            Specificity : 0.7648          
+         Pos Pred Value : 0.9397          
+         Neg Pred Value : 0.5950          
+             Prevalence : 0.8072          
+         Detection Rate : 0.7068          
+   Detection Prevalence : 0.7521          
+      Balanced Accuracy : 0.8202          
+                                          
+       'Positive' Class :  <=50K  
+
+
+RANDOM FOREST -- 86.01% accuracy
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  <=50K  >50K
+     <=50K   5299   372
+     >50K     683  1186
+                                         
+               Accuracy : 0.8601         
+                 95% CI : (0.852, 0.8678)
+    No Information Rate : 0.7934         
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.6026         
+                                         
+ Mcnemar's Test P-Value : < 2.2e-16      
+                                         
+            Sensitivity : 0.8858         
+            Specificity : 0.7612         
+         Pos Pred Value : 0.9344         
+         Neg Pred Value : 0.6346         
+             Prevalence : 0.7934         
+         Detection Rate : 0.7028         
+   Detection Prevalence : 0.7521         
+      Balanced Accuracy : 0.8235         
+                                         
+       'Positive' Class :  <=50K         
+                                    
+
+NAIVE BAYES -- 81.96% accuracy
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  <=50K  >50K
+     <=50K   5269   375
+     >50K     985   911
+                                          
+               Accuracy : 0.8196          
+                 95% CI : (0.8108, 0.8282)
+    No Information Rate : 0.8294          
+    P-Value [Acc > NIR] : 0.9883          
+                                          
+                  Kappa : 0.4636          
+                                          
+ Mcnemar's Test P-Value : <2e-16          
+                                          
+            Sensitivity : 0.8425          
+            Specificity : 0.7084          
+         Pos Pred Value : 0.9336          
+         Neg Pred Value : 0.4805          
+             Prevalence : 0.8294          
+         Detection Rate : 0.6988          
+   Detection Prevalence : 0.7485          
+      Balanced Accuracy : 0.7754          
+                                          
+       'Positive' Class :  <=50K    
